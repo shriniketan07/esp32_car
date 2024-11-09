@@ -17,7 +17,7 @@ Real-time Control: The car responds to your Bluetooth commands in real-time with
 
 
 
-Circuit Diagram
+#Circuit Diagram
 ![Circuit Diagram](circuit-diagram.jpg)
 
 Wiring
