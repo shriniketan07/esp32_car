@@ -27,16 +27,16 @@ This project enables you to control a robot car via Bluetooth using an Android a
 
 - **ESP32 to L298N Motor Driver:**
 
-- IN1 -> GPIO 12
-- IN2 -> GPIO 13
-- IN3 -> GPIO 26
-- IN4 -> GPIO 27
-- ENA -> 5V (or control pin)
-- ENB -> 5V (or control pin)
-- OUT1 & OUT2 -> DC motor 1
-- OUT3 & OUT4 -> DC motor 2
-- VCC -> 5V (for L298N logic)
-- GND -> Ground (shared with ESP32 and battery)
+    - IN1 -> GPIO 12
+    - IN2 -> GPIO 13
+    - IN3 -> GPIO 26
+    - IN4 -> GPIO 27
+    - ENA -> 5V (or control pin)
+    - ENB -> 5V (or control pin)
+    - OUT1 & OUT2 -> DC motor 1
+    - OUT3 & OUT4 -> DC motor 2
+    - VCC -> 5V (for L298N logic)
+    - GND -> Ground (shared with ESP32 and battery)
 
 
 
@@ -44,11 +44,11 @@ This project enables you to control a robot car via Bluetooth using an Android a
 
 - **ESP32 to HC-SR04 Ultrasonic Sensor:**
 
-- VCC -> 5V
-- GND -> Ground
-- Trig -> GPIO 33
-- Echo -> GPIO 32
-- Power Supply: Ensure the motors are powered with a separate power source (e.g., 9V battery or LiPo battery).
+    - VCC -> 5V
+    - GND -> Ground
+    - Trig -> GPIO 33
+    - Echo -> GPIO 32
+    - Power Supply: Ensure the motors are powered with a separate power source (e.g., 9V battery or LiPo battery).
 ESP32 can be powered through the micro USB port.
 Android App
 The provided Android app allows you to control the car's movement via Bluetooth. You can:
