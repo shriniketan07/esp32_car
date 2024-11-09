@@ -50,9 +50,10 @@ This project enables you to control a robot car via Bluetooth using an Android a
     - Echo -> GPIO 32
     - Power Supply: Ensure the motors are powered with a separate power source (e.g., 9V battery or LiPo battery).
 ESP32 can be powered through the micro USB port.
-Android App
-The provided Android app allows you to control the car's movement via Bluetooth. You can:
 
+
+**Android App**
+The provided Android app allows you to control the car's movement via Bluetooth. You can:
 Move the car forward, backward, left, or right.
 Stop the car.
 The app also handles Bluetooth pairing and connection management.
