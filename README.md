@@ -14,6 +14,9 @@ Bluetooth Control: Use the provided Android app to control the car remotely via 
 Forward, Backward, Left, Right, Stop: The car can be driven forward, backward, turned left, turned right, or stopped.
 Obstacle Avoidance: The car uses an ultrasonic sensor (HC-SR04) to detect obstacles and automatically avoid them by stopping or changing direction.
 Real-time Control: The car responds to your Bluetooth commands in real-time with minimal latency.
+
+
+
 Circuit Diagram
 ![Circuit Diagram](circuit-diagram.jpg)
 
