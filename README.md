@@ -3,17 +3,19 @@
 This project enables you to control a robot car via Bluetooth using an Android app, with the added feature of obstacle avoidance. The car is powered by an ESP32 microcontroller, which communicates with an L298N motor driver to control the motors. Additionally, the car can autonomously avoid obstacles using ultrasonic sensors, making it more intelligent and responsive to its environment.
 
 Components Used
-ESP32: A powerful microcontroller with built-in Bluetooth and Wi-Fi capabilities.
-L298N Motor Driver: A dual H-Bridge motor driver to control the DC motors.
-DC Motors: Two DC motors to drive the car.
-HC-SR04 Ultrasonic Sensor: For obstacle detection (front of the car).
-Bluetooth: Bluetooth module (built into ESP32).
-Power Supply: Typically a 9V battery or LiPo battery to power both the car and the ESP32.
+1. ESP32: A powerful microcontroller with built-in Bluetooth and Wi-Fi capabilities.
+2. L298N Motor Driver: A dual H-Bridge motor driver to control the DC motors.
+3. DC Motors: Two DC motors to drive the car.
+4. HC-SR04 Ultrasonic Sensor: For obstacle detection (front of the car).
+5. Bluetooth: Bluetooth module (built into ESP32).
+6. Power Supply: Typically a 9V battery or LiPo battery to power both the car and the ESP32.
+
+
 Features
-Bluetooth Control: Use the provided Android app to control the car remotely via Bluetooth.
-Forward, Backward, Left, Right, Stop: The car can be driven forward, backward, turned left, turned right, or stopped.
-Obstacle Avoidance: The car uses an ultrasonic sensor (HC-SR04) to detect obstacles and automatically avoid them by stopping or changing direction.
-Real-time Control: The car responds to your Bluetooth commands in real-time with minimal latency.
+1. Bluetooth Control: Use the provided Android app to control the car remotely via Bluetooth.
+2. Forward, Backward, Left, Right, Stop: The car can be driven forward, backward, turned left, turned right, or stopped.
+3. Obstacle Avoidance: The car uses an ultrasonic sensor (HC-SR04) to detect obstacles and automatically avoid them by stopping or changing direction.
+4. Real-time Control: The car responds to your Bluetooth commands in real-time with minimal latency.
 
 
 
